@@ -25,3 +25,6 @@ print(a[2])
 print(a[3])
 print(a)
 print(b)
+c = [3,4,1,2,26, 10]
+sorted(c)
+print(c)

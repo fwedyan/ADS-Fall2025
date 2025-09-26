@@ -17,3 +17,11 @@ print(my_tuple[3])  # Output: hello
 print(my_tuple[-1])  # Output: 4.5
 print(my_tuple[-2])  # Output: hello
 
+tuples2 = ((1.5,5,7),[3.6,1.4])
+print(tuples2[1])
+t3 = ('a','b','c')[1:3]
+print(type(t3))
+print(t3)
+fruits = ["apple", "banana", "orange"]
+for index, fruit in enumerate(fruits):
+    print(f"At position {index}, I found a {fruit}")

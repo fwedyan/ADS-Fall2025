@@ -8,3 +8,5 @@ B = {4, 5, 6, 7, 8}
 print(A | B)
 print(A & B)
 print(A^B)
+A.add(10)
+print(A)

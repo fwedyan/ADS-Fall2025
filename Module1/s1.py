@@ -22,7 +22,7 @@ def removeChar(str,chr):
     return str.replace(chr, '')
 
 def main():
-    str = 'fadi'
+    str = 'Lewis'
     printing(str)
     str=duplicate(str)
     print(str)
@@ -41,7 +41,8 @@ def main():
         print("yes")
     else:
         print("no")
-    
+    s3 = str2.capitalize()    
+    print(s3)
     
 main()
 

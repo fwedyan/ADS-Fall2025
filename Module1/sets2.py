@@ -12,8 +12,7 @@ setb = {3,4,5,6}
 seta.update(setb) #same as union, but result is in seta
 print(seta)
 
-#add an element
-#seta.update(7) 
+#add an element or a list
 seta.update([7])
 
 #add a list

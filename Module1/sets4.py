@@ -17,13 +17,15 @@ print(a)
 a.discard(2)
 print(a)
 
-# remove an element
-# not present in my_set, you will get an exception of type: KeyError
+# remove an element, not present in my_set,
+# you will get an exception of type: KeyError
 
 #a.remove(2)
 
-#remove using pop, you will never know which item is removed
+#remove using pop, you will never know 
+#which item is removed
 print(a.pop())
+
 
 #remove all elements in the set
 a.clear()

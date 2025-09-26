@@ -1,5 +1,3 @@
-var = 6
-del var  # var no more!
 
 list = ['a', 'b', 'c', 'd']
 del list[0]     ## Delete first element
@@ -9,3 +7,7 @@ print(list)      ## ['b']
 dict = {'a':1, 'b':2, 'c':3}
 del dict['b']   ## Delete 'b' entry
 print(dict)      ## {'a':1, 'c':3}
+
+var = 6
+#del var  # var no more!
+print(var)

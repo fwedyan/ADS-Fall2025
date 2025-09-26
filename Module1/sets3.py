@@ -1,6 +1,6 @@
 #adding to a list
 a = {1,2,3}
-b =  { 4,5}
+b = { 4,5}
 c = set()
 #you can add sets, two or more
 c.update(a,b, {11})
