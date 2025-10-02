@@ -2,13 +2,18 @@ from array_stack import ArrayStack
 
 '''create a copy of the stack'''
 def copy(source, dest):
+   #source: [1,2,3,4,5]  -> 5 is the top 
+   #why we needed the temp stack?
    temp = ArrayStack()
+   #create the copy
    while not source.is_empty():
        temp.push(source.top())
        source.pop()
+   #temp = [5,4,3,2,1] source = [ ]
    while not temp.is_empty():
        dest.push(temp.top())
        source.push(temp.pop())
+   #dest = [1,2,3,4,5], source = [1,2,3,4,5]    
          
 '''print from top to bottom'''
 def printStack(s:ArrayStack):
@@ -55,25 +60,32 @@ def swapTopBottom(s:ArrayStack()):
     
 if __name__ == '__main__':        
  s1 = ArrayStack()
- # x = 1
- # y = 2
- # s1.push(x)
- # s1.push(y)
+ x = 1
+ y = 2
+ s1.push(x)
+ s1.push(y)
+ s1.push(3)
+ s1.push(4)
+ s1.push(5)
  # x = s1.pop()
  # y = s1.pop()
  # print(x)
  # print(y)
  
  s2 = ArrayStack()
- s1.push(1)
- s1.push(2)
- s1.push(3)
- s1.push(4)
- s1.push(5)
- printStack(s1)
+ copy(s1,s2)
+ print("s1: "); printStack(s1)
+ print("s2: "); printStack(s2)
+ #print(s2)
+# s1.push(1)
+ #s1.push(2)
+ #s1.push(3)
+ #s1.push(4)
+ #s1.push(5)
+ #printStack(s1)
 # swapFirstTwo(s1)
 # copy(s1,s2)
 # printStack(s2)
- swapTopBottom(s1)
- printStack(s1)
+# swapTopBottom(s1)
+# printStack(s1)
  
