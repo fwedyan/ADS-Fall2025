@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['Module 5\\dynamic_array.py', 'Module 5\\example.py', 'Module 5\\experiment_list_append.py', 'Module 5\\experiment_list_size.py']
+recent_files = ['Queues\\array_queue.py', 'Queues\\QueueExamples.py', 'Stacks\\array_stack.py', 'Stacks\\Examples.py', '..\\Users\\fwedyan\\Desktop\\Rubric\\main.py', '..\\Users\\fwedyan\\Desktop\\courses\\DS Certiciate\\Course 8- Visualization\\flight_delay.py']
 
 [main]
 version = 0.2.0

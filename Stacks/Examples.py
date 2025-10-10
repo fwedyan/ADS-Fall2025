@@ -26,12 +26,23 @@ def printStack(s:ArrayStack):
   while not temp.is_empty():
       s.push(temp.pop())
 
+def printStack_bottom_top(s:ArrayStack()):
+    print("from bottom to top: ", end = ' ')
+    temp = ArrayStack()
+    while not s.is_empty():
+        temp.push(s.pop())
+    while not temp.is_empty():
+        print(temp.top(), end = ' ')
+        s.push(temp.pop())
+    print()   
    # S= [1,
    #    2
    #     ,3,
    #     10
    #     ,5] top =1
+''' Swap the top with the value underneath '''
 def swapFirstTwo(s:ArrayStack):
+    #[1,2,3,4], 4, 3
    if len(s) >=2:
      first = s.pop()
      second = s.pop()
@@ -58,6 +69,11 @@ def swapTopBottom(s:ArrayStack()):
         s.push(temp.pop())
     s.push(bottom)    
     
+''' Push a stack (source) on top of another stack
+(dest)'''
+def push_stack(source, dest):
+    pass
+
 if __name__ == '__main__':        
  s1 = ArrayStack()
  x = 1
@@ -74,8 +90,9 @@ if __name__ == '__main__':
  
  s2 = ArrayStack()
  copy(s1,s2)
- print("s1: "); printStack(s1)
- print("s2: "); printStack(s2)
+ print("s1: ", end = " "); printStack(s1)
+ print("s1: ", end = " "); printStack_bottom_top(s1)
+ #print("s2: "); printStack(s2)
  #print(s2)
 # s1.push(1)
  #s1.push(2)

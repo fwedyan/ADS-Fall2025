@@ -19,7 +19,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from ..exceptions import Empty
+from array_stack import Empty
 
 class LinkedStack:
   """LIFO Stack implementation using a singly linked 
@@ -71,6 +71,6 @@ class LinkedStack:
     if self.is_empty():
       raise Empty('Stack is empty')
     answer = self._head._element
-    self._head = self._head._next           # bypass the former top node
+    self._head = self._head._next # bypass the former top node
     self._size -= 1
     return answer

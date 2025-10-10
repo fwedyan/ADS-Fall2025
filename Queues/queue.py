@@ -15,11 +15,12 @@ class Queue:
         self._type = type
         if type == 'a':
             self._aqueue = ArrayQueue()
-        else:
+        else: #default
             self._lqueue = LinkedQueue()
             
     def __len__(self):
         if self._type =='a':
+            #this is called method delegation
             return self._aqueue.__len__()
         else:
             return self._lqueue.__len__()
