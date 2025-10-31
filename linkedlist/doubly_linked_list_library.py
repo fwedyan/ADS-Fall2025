@@ -32,7 +32,6 @@ if __name__ == "__main__":
     print("del tail:",my_dlist.delete_tail())
 
     print(my_dlist)
-   #  print()
     my_dlist.insert_head(9)
     my_dlist.insert_tail(1)
     print(my_dlist)
@@ -46,14 +45,5 @@ if __name__ == "__main__":
     print("moving:", ptr._element)
     my_dlist.insert_after(ptr,99)
     printDlist(my_dlist)
-   #  my_dlist.delete_current(ptr) 
-   #  printDlist(my_dlist)
-    ptr = my_dlist._head._next
-    #my_dlist.delete_current(ptr) 
-   #  #print()
-    printDlist(my_dlist)
-    ptr = my_dlist._tail._prev
-   #  my_dlist.delete_current(ptr) 
-   # #printDlist(my_dlist)
-   #  print(my_dlist)
+    
 

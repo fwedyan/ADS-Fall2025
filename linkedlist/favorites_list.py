@@ -19,7 +19,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from .positional_list import PositionalList
+from positional_list import PositionalList
 
 class FavoritesList:
   """List of elements ordered from most frequently accessed to least."""
