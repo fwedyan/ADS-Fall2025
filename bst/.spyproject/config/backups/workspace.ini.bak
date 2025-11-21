@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['bst\\avl_tree.py', 'bst\\binary_search_tree.py', 'bst\\bstExample.py', 'bst\\PP11.py']
+recent_files = ['bstExample.py', 'binary_search_tree.py', '..\\Trees\\linked_binary_tree.py', '..\\Trees\\binary_tree.py', '..\\maps\\map_base.py', 'avl_tree.py']
 
 [main]
 version = 0.2.0

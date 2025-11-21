@@ -27,10 +27,10 @@ class PR_queue_sorter(Sorter):
         self._q = HeapPriorityQueue()
 
     def sort(self, seq:list):
-        while len(seq) > 0:
+        while len(seq) > 0: #O(nlogn), we can do it in O(n)
             self._q.add(seq[0], None)
             del seq[0]
-        while not self._q.is_empty():
+        while not self._q.is_empty(): # O(nlogn)
             k,v =self._q.remove_min()
             seq.append(k)
         return seq

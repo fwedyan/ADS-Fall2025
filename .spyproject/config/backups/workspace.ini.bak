@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['PriorityQueues\\adaptable_heap_priority_queue.py', 'PriorityQueues\\heap_priority_queue.py', 'PriorityQueues\\priority_queue_base.py', 'PriorityQueues\\sorted_priority_queue.py', 'PriorityQueues\\Sorter.py', 'PriorityQueues\\unsorted_priority_queue.py']
+recent_files = ['bst\\avl_tree.py', 'bst\\binary_search_tree.py', 'bst\\bstExample.py', 'bst\\PP11.py']
 
 [main]
 version = 0.2.0
